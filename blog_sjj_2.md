@@ -20,6 +20,7 @@
 
 ## 文件系统结构
 ![目录结构](https://user-images.githubusercontent.com/43201545/45925669-7966cc80-bf4c-11e8-8f62-82d828bc095a.jpg)
+
 /boot：引导文件存放目录，内核文件（vmlinuz）、引导加载器（bootloader,grub），初始化文件initramfs(initrd)  
 
 /bin：供所有用户使用的基本命令；不能关联至独立分区，OS启动即会用到的程序  
